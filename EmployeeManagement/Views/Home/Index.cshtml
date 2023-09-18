@@ -1,0 +1,45 @@
+﻿@* Since we are using IEnumerable in mockEmployeerepository we are using Ienumerable in index View  *@
+
+@model IEnumerable<EmployeeManagement.Models.Employee>
+
+
+<html>
+
+    <head>
+        <title></title>
+    </head>
+    <body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @* We are using foreach loop since we want to llok for each employee object *@
+            @foreach(var employee in Model)
+            {
+               <tr>
+                   <td>
+                        @employee.Id
+                   </td>
+
+                    <td>
+                        @employee.Name
+                    </td>
+                    <td>
+                        @employee.Email
+                    </td>
+                    <td>
+                        @employee.Department
+                    </td>
+               </tr>
+            }
+        </tbody>
+    </table>
+    </body>
+</html>           
