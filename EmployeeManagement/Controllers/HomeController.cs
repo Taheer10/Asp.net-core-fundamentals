@@ -23,7 +23,10 @@ namespace EmployeeManagement.Controllers
         {
 
             Employee model = _employeeRepository.GetEmployee(1);
-            return View("../../MyViews/Test");
+            //Passing data from view Using ViewData,ViewBag and Strongly Typed View
+            ViewData["Employee"] = model;
+            ViewData["PageTitle"] = "Employee Details";
+            return View();
         }
 
         public IActionResult Privacy()
