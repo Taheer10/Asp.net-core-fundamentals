@@ -23,10 +23,8 @@ namespace EmployeeManagement.Controllers
         {
 
             Employee model = _employeeRepository.GetEmployee(1);
-            //With ViewBag we can use Dynamic Property
-            ViewBag.Employee = model;
             ViewBag.PageTitle = "Employee Details";
-            return View();
+            return View(model);
         }
 
         public IActionResult Privacy()

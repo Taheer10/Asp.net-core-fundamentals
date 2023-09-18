@@ -1,22 +1,23 @@
-﻿<html>
+﻿@* Now it is strongly typed View *@
+@model EmployeeManagement.Models.Employee
+
+<html>
 
     <head>
         <title></title>
     </head>
     <body>
-    @* With ViewBag we can use Dynamic Property 
-        ViewBag also creates losely typed View
-    *@
+    @* With StrongType View provides compile-time checking and provides intellisense  *@
         <h3>@ViewBag.PageTitle </h3> 
        
         <div>
-            Name: @ViewBag.Employee.Name
+            Name: @Model.Name
         </div>
     <div>
-        Name: @ViewBag.Employee.Email
+        Name: @Model.Email
     </div>
     <div>
-        Name: @ViewBag.Employee.Department
+        Name: @Model.Department
     </div>
     </body>
 </html>       
