@@ -1,0 +1,33 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmployeeManagement
+build_property.RootNamespace = EmployeeManagement
+build_property.ProjectDir = D:\C#\EmployeeManagement\EmployeeManagement\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C#\EmployeeManagement\EmployeeManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\#/EmployeeManagement/EmployeeManagement/MyViews/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TXlWaWV3c1xUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/EmployeeManagement/EmployeeManagement/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/EmployeeManagement/EmployeeManagement/Views/Home/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/EmployeeManagement/EmployeeManagement/Views/Test/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
