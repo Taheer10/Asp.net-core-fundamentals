@@ -1,12 +1,11 @@
 ﻿@* View Model*@
 @model EmployeeManagement.ViewModels.HomeDetailsViewModel
 
-<html>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Employee Detail";
+}
 
-    <head>
-        <title></title>
-    </head>
-    <body>
     @* With StrongType View provides compile-time checking and provides intellisense  *@
         <h3>@ViewBag.PageTitle </h3> 
        
@@ -19,5 +18,8 @@
     <div>
         Name: @Model.Employee.Department
     </div>
-    </body>
-</html>       
+
+    @section Scripts {
+    <script src="~/js/site.js"></script>
+    }
+     
