@@ -23,9 +23,9 @@ namespace EmployeeManagement.Controllers
         {
 
             Employee model = _employeeRepository.GetEmployee(1);
-            //Passing data from view Using ViewData,ViewBag and Strongly Typed View
-            ViewData["Employee"] = model;
-            ViewData["PageTitle"] = "Employee Details";
+            //With ViewBag we can use Dynamic Property
+            ViewBag.Employee = model;
+            ViewBag.PageTitle = "Employee Details";
             return View();
         }
 

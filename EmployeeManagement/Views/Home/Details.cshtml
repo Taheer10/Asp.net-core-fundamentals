@@ -4,25 +4,19 @@
         <title></title>
     </head>
     <body>
-        @* ViewData is a Loosely typed View meaning The view doesnot know the type of data we are storing
-         The View will only know about the datatype only during runtime but not at compile time when the keys are resolved
-        *@
-       @*  
-           We use String keys to store and retrieve data using ViewData
-       Used to retrieve PageTitle and name must also match *@
-        <h3>@ViewData["PageTitle"] </h3> 
-        @{
-            //If we are accessing data other than type string than we must specify on below way
-            var employee = ViewData["Employee"] as EmployeeManagement.Models.Employee;
-        }
+    @* With ViewBag we can use Dynamic Property 
+        ViewBag also creates losely typed View
+    *@
+        <h3>@ViewBag.PageTitle </h3> 
+       
         <div>
-            Name: @employee.Name
+            Name: @ViewBag.Employee.Name
         </div>
     <div>
-        Name: @employee.Email
+        Name: @ViewBag.Employee.Email
     </div>
     <div>
-        Name: @employee.Department
+        Name: @ViewBag.Employee.Department
     </div>
     </body>
 </html>       
