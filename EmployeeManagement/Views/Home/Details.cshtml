@@ -1,5 +1,5 @@
-﻿@* Now it is strongly typed View *@
-@model EmployeeManagement.Models.Employee
+﻿@* View Model*@
+@model EmployeeManagement.ViewModels.HomeDetailsViewModel
 
 <html>
 
@@ -11,13 +11,13 @@
         <h3>@ViewBag.PageTitle </h3> 
        
         <div>
-            Name: @Model.Name
+            Name: @Model.Employee.Name
         </div>
     <div>
-        Name: @Model.Email
+        Name: @Model.Employee.Email
     </div>
     <div>
-        Name: @Model.Department
+        Name: @Model.Employee.Department
     </div>
     </body>
 </html>       
